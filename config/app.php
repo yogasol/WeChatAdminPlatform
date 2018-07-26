@@ -54,6 +54,12 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
+    'appid'=>env('APP_ID'),
+    'appsecret'=>env('APP_SECRET'),
+    'testappid'=>env('TEST_APP_ID'),
+    'testappsecret'=>env('TEST_APP_SECRET'),
+    'touser'=>env('TOUSER'),
+    'template_id'=>env('TEMPLATE_ID'),
     /*
     |--------------------------------------------------------------------------
     | Application Timezone
